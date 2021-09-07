@@ -17,6 +17,9 @@ For the purpose of this project, we consider the LFW (Labelled Faces in the Wild
  
  ## Siamese Neural Network
  <p align="center">
-  <img src="" width="600"/>
+  <img src="https://github.com/Vaibhav-Sachdeva/Vaibhav-Sachdeva/blob/main/Images/siamese-nn.PNG" width="600"/>
 </p>
+A Siamese Neural Network is a class of neural network architecture that consist of two identical subnetworks (two identical convolutional neural networks in case of face recognition), both joined together at the end using some energy function. The term ‘identical’ here means that the
+subnetworks have the same configuration i.e. the exact same parameters and weights. The Siamese Network finds the similarity/dissimilarity between input images by comparing their feature vectors, generally known as image encodings/embedding.A Siamese network takes two different input images which are passed through two subnetworks
+having the same architecture, parameters, and weights.The Siamese network's objective is to classify if the two inputs are the same or different using a Similarity Score.
 
