@@ -10,3 +10,12 @@ The prime objective is to develop a robust pipeline/model for facial image featu
 
 For the purpose of this project, we consider the LFW (Labelled Faces in the Wild) dataset, a database of face photographs designed for studying the problem of unconstrained face recognition. The data set contains more than 13,000 images of faces collected from the web. Each face has been labelled with the name of the person pictured. 1680 of the people pictured have two or more distinct photos in the data set. The only constraint on these faces is that they were detected by the Viola-Jones face detector, an outdated but powerful face detector.
 
+## Convolutional Neural Network 
+
+<p align="center">
+  <img src="https://github.com/Vaibhav-Sachdeva/Vaibhav-Sachdeva/blob/main/Images/CNN_frame.PNG" width="600"/>
+</p>
+With time, advances in Computer Vision with Deep Learning have been developed and refined, predominantly by one unique algorithm, a Convolutional Neural
+Network (ConvNet). A Deep Learning algorithm, Convolution Neural Network can take an input image, allocate significance (learnable weights and biases) to various aspects of the image and be able to differentiate one from the other. As compared to other classification algorithms, the pre-processing required in a ConvNet is much lower. Although filters are hand-engineered in primitive ways, but with enough experience, ConvNets have the ability to learn these features.
+The ConvNet architecture is comparable to that of the neuron connectivity pattern in the human brain and was inspired by the Visual Cortex organization. Individual neurons respond only in a small area of the visual field, known as the Receptive Field, to stimuli.ConvNets are a type of feed-forward neural networks that consist of filters or kernels or neurons that have weights or parameters and biases that can be learned. Each filter takes those inputs, performs convolution and, optionally, non-linearity follows. it
+
